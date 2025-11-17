@@ -10,7 +10,6 @@ from io import BytesIO
 from backend.report_utils import save_report  # make sure this import is at the top of your file
 import os
 from backend.report_utils import save_report, delete_report, list_all_reports
-import os
 import gc
 
 
