@@ -108,7 +108,7 @@ def safe_load_json(uploaded_file):
 # FILE UPLOAD SECTION
 # -----------------------------------------------------------
 
-uploaded_file = st.file_uploader("📂 Upload live JSON or Word (.docx) file", type=["json", "docx"])
+uploaded_file = st.file_uploader("📂 Upload live JSON or Word file", type=["json", "docx"])
 if not uploaded_file:
     st.info("Please upload a JSON or DOCX file to begin.")
     st.stop()
